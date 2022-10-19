@@ -15,8 +15,11 @@ const connect = function () {
   conn.on("connect", () => {
     conn.write("Name: LJK");
   });
-  conn.on("data", () => {
-    console.log("you ded cuz you idled")
+  conn.on("connect", () => {
+    // conn.write("Move: up");
+  });
+  conn.on("data", (data) => {
+    console.log(data)
   })
   return conn;
 };
