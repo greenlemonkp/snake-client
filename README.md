@@ -8,8 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["screenshot description"](https://myoctocat.com/assets/images/base-octocat.svg)
-!["screenshot description"](#)
+!["screenshot description"](/snake-client/screenshot.png)
 
 
 ## Getting Started
