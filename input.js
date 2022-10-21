@@ -11,7 +11,7 @@ const setupInput = function (conn) {
   return stdin;
 };
 
-const handleUserInput = function (key) {
+const handleUserInput = function (key) { //input movements
     if (key === '\u0003') {
       process.exit();
     }
