@@ -1,6 +1,6 @@
 let connection;
 
-const setupInput = function (conn) {
+const setupInput = function (conn) { 
   connection = conn;
   const stdin = process.stdin;
   stdin.setRawMode(true);
