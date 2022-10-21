@@ -1,6 +1,6 @@
 const {connect} = require("./client.js");
 const { setupInput } = require("./input");
-console.log("Connecting ...");
+console.log("Connecting ..."); //shows connection in progress
 
 
 
